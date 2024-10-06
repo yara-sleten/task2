@@ -1,0 +1,66 @@
+.sec-1 , .sec-2 ,.sec-3{
+    border: 3px solid rgb(65, 163, 229);
+    margin: 20px;
+    display:flex;
+    justify-content:space-around ;
+    background-color: black;
+    border-radius: 5% 5% 5% 5%;
+    height: 170px;
+}
+.sec-1 div ,.sec-2 div , .sec-3 div,.sec-4 div , .sec-5 div , .sec-6 div {
+ width:100px;
+ height: 100px;
+ border:3px solid rgb(201, 86, 20);
+ background-color: rgba(255, 60, 0, 0.29);
+ border-radius: 5% 5% 5% 5%;
+margin: 10px;
+}
+.sec-1{
+    align-items: center;
+   
+}
+
+.sec-3{
+    align-items:end ;
+}
+.sec-2 {
+   justify-content: flex-start;
+   align-items: flex-start;
+    }
+.inf-1{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-2{
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+.sec-4 , .sec-5,.sec-6{
+    width:170px;
+    border: 3px solid rgb(65, 163, 229);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    background-color: black;
+    border-radius: 5% 5% 5% 5%;
+    margin: 20px;
+   
+}
+
+.sec-4{
+    
+    justify-content: center;
+}
+.sec-5{
+  
+    justify-content: flex-start;
+   
+
+}
+.sec-6{
+   
+    justify-content: flex-end;  
+}

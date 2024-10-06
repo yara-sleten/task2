@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    position: relative;
+    
+}
+.hero img{
+    vertical-align: middle;
+}
+ .contant{
+position: absolute;
+bottom:50%;
+color:white;
+background-color:rgba(0,0,0,0.5);
+
+
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav {
+   
+    background-color: rgba(0, 0, 0, 0.853);
+    color:white;
+    font-size: 15px;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+.nav li{
+    list-style: none;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.853);
+    color:white;
+    font-size: 15px;
+    
+}
+footer li{
+    display: inline;
+    list-style: none;
+}
+footer a{
+   
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+.nav h2{
+    display: inline;
+}
+.sec-1  {
+  
+   width:100%;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-1 h2{
+    text-align: center;
+    font-size: 27px;
+    margin: 10px;
+
+}
+.our-serv{
+    
+   width:100%;
+   height:300px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  text-align: center;
+  background-color: #fdc078;
+}
+.our-serv h2{
+   text-align: center;
+   margin: 20px;
+
+}
+.Services-title{
+    display: flex;
+}
+.our-serv p{
+    padding: 15px;
+}
+.spec, .teacher {
+    width:100%;
+    height:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.spec h2 , .teacher h2 {
+    margin: 20px;
+    font-size: 27px;
+
+}
+.Spec-title , .teacher-name , .plan-title {
+ display: flex;
+ 
+}
+.mm{
+    width: 200px;
+}
+.Spec-title div ,.teacher-name div {
+    margin: 10px;
+}
+.Spec-title h3 , .teacher-name h3{
+    padding: 10px;
+}
+.teacher{
+    background-color: #fdc078;
+}
+.plans {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.plans h2{
+    font-size: 27px; 
+    text-align: center;
+}
+.plan-title2 {
+    width: 200px;
+    padding: 10px;
+    background-color: #ffe188;
+    margin:20px;
+    border-radius:5px ;
+}
+.img2{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+    
+}
+.plan-title3{
+    background-color: rgb(255 255 36 / 49%);
+    border: 1px solid #ffbf00;
+    border-radius: 2px;
+    width:150px ;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.plan-title2 ul{
+    margin-left: 30px;
+    padding-right:110px ;
+}
+
+    .plan-title2 h3{
+        margin: 10px;
+        text-align: center;
+}
+.contact-us {
+    width:100%;
+    height:270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdc078;
+}
+.contact-us h2{
+    font-size: 27px;
+    text-align: center;
+}
+.contact-us input,textarea{
+    width: 200px;
+}
+.info{
+   height: 150px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+    width:100%;
+    background-color: #ffcb7f;
+}
+.info h2{
+    margin: 10px;
+    font-size: 27px;
+}
+.contact-us div{
+    margin: 10px;
+}
+.contact-us button{
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    color:white;
+    width:100px ;
+   margin-top: 10px;
+}

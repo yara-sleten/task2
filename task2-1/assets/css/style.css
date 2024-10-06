@@ -1,0 +1,102 @@
+*{
+margin:0;
+padding:0;
+}
+.hed{
+    text-align: center;
+    background-color: #5b5b5b;
+    width: 100%;
+  
+}
+.hero{
+   padding: 10px;
+}
+.imgg{
+    border-radius: 50%;
+}
+.about-me h1,.about-me h2,.contact-me h3, .follow-me h3{
+    margin: 5px;
+    padding:5px;
+}
+ .about-me p{
+    padding: 10px;
+    margin-bottom:10px;
+}
+.all{
+    width:60%;
+    border:1px solid #9e9e9e52;
+    margin:20px;
+    border-radius: 1% ;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link  div,.ul-2 li,.ul-4 p , .ul-5 p {
+    display:inline-block;
+    width: 22.3%;
+    height: 70px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5% ;
+    color: white;
+}
+.link a{
+text-decoration:none;
+color:white
+}
+
+.link , .ul-2 ,.ul-4 {
+    display:flex;
+    margin: 0 auto;
+    justify-content:space-evenly;
+    padding: 10px;
+}
+.link, .ul-2,.ul-4{
+    width:90%;
+}
+hr{
+    margin: 20px;
+    color:#9e9e9e52;
+  
+}
+.follow-me div{
+ 
+margin: 10px;
+}
+.follow-me h3 ,.contact-me h3 ,.ex-perience {
+    margin: 10px;
+}
+.in-line{
+    display:inline;
+}
+li{
+    display: inline-block;
+}
+.ul-1 , .ul-3{
+   width: 68%;
+    display:flex;
+    margin: 0 auto;
+    justify-content:space-evenly;
+}
+.ul-1 li, .ul-3 li{
+    display:inline-block;
+    width:30%;
+    height: 70px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5% ;
+    color: white;
+}
+.ul-5 {
+    width:90%;
+    display:flex;
+    margin: 0 auto;
+    justify-content:space-evenly;
+}
